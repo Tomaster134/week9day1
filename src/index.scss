@@ -1,0 +1,44 @@
+$enable-important-utilities: false;
+@import "node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  margin: 40px;
+}
+
+.footer-text {
+  padding: 10px;
+}
+
+.name {
+  margin-bottom: 10px;
+}
